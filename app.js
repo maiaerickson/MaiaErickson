@@ -12,6 +12,19 @@ app.get("/", function(req, res){
   res.render("index");
 });
 
+app.get("/gallery", function(req, res){
+  res.render("gallery");
+});
+
+app.get("about", function(req, res){
+  res.render("about");
+});
+
+app.get("blog", function(req, res){
+  res.render("blog");
+});
+
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
