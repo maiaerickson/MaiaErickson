@@ -1,0 +1,47 @@
+extends structure/_layout.pug
+
+block prepend head
+  title Maia's Art
+  meta(name="description", content="Maia's homepage!")
+
+block content
+
+  main.site-content
+  
+    div(class="homePageImg")
+      h1(class="center") Hello! My name is Maia
+    div(class="imgGallery", id="vueImgGallery")
+      h1(class="center", style="font-weight: 300;") my recent work
+      button(class="btn-flat waves-effect seeMore right")
+        a(class="btn-flat" href="/gallery.html") see more ->
+      div(id="grid-gallery" class="grid-gallery" style="clear: both;")
+        section(class="grid-wrap")
+          ul(class="grid center")
+            li(class="grid-sizer")
+            li(v-for="item in arrayz")
+              figure
+                img(:src="item.imageSrc")
+                figcaption
+                  h3 {{ item.titleWords }}
+                  p {{ item.captionWords }}
+        section(class="slideshow")
+          ul
+            li(v-for="item in arrayz")
+              figure
+                figcaption
+                  h3 {{ item.titleWords }}
+                  p {{ item.captionWords }}
+                img(:src="item.imageSrc")
+          nav
+            span(class="icon nav-prev waves-effect")
+            span(class="icon nav-next waves-effect")
+            span(class="icon nav-close waves-effect")
+          div(class="info-keys icon") Navigate with arrows
+  script(src="https://rawgit.com/andrewbiang888/GridGallery/master/js/imagesloaded.pkgd.min.js")
+  script(src="https://rawgit.com/andrewbiang888/GridGallery/master/js/masonry.pkgd.min.js")
+  script(src="https://rawgit.com/andrewbiang888/GridGallery/master/js/classie.js")
+  script(src="https://rawgit.com/andrewbiang888/GridGallery/master/js/cbpGridGallery.js")
+            
+      
+    
+    
