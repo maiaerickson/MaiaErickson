@@ -28,7 +28,3 @@ app.get("/blog", function(req, res){
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
-
-// HEy thre
-//New comment updated
-// Update 10.0
