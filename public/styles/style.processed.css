@@ -38,6 +38,10 @@ body {
   font-weight: bold;
   color: black;
 }
+img.logoImg {
+  height: 130px;
+  width: auto;
+}
 
 div.homePageImg {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/836822/maiaImg.jpg") no-repeat center center;
