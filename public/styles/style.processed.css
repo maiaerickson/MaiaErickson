@@ -135,3 +135,32 @@ button.btn-flat a:hover {
 #sidenav-overlay {
   z-index: 0 !important;
 }
+
+/*Footer*/
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.footer-wrapper {
+  margin-left: 20px;
+}
+
+i {
+  margin-left: 10px;
+  transition: .12s;
+}
+
+i:hover {
+  color: orange;
+  transition: .12s;
+}
+
+a {
+  color: black;
+}
+
+.media-icons {
+  margin: auto;
+}

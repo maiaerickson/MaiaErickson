@@ -1,14 +1,15 @@
 footer.site-footer
   hr
-  div(class="row")
-    div(class="col s4")
-      a(class="" href="https://www.facebook.com/maia.a.erickson")
-        i(class="fa fa-facebook fa-2x" aria-hidden="true")
-      a(class="" href="https://www.facebook.com/maia.a.erickson")
-        i(class="fa fa-twitter fa-2x" aria-hidden="true")     
-      a(class="" href="https://www.facebook.com/maia.a.erickson")
-        i(class="fa fa-instagram fa-2x" aria-hidden="true")       
-    div(class="col s4")
-      p(class="center-align") &copy; #{moment().format('YYYY')} Maia Erickson
+  div(class="footer-wrapper")
+    div(class="row valign-wrapper")
+      div(class="col s4 media-icons")
+        a(class="" href="https://www.facebook.com/maia.a.erickson")
+          i(class="fa fa-facebook fa-2x" aria-hidden="true" target="_blank") 
+        a(class="" href="https://www.instagram.com/maiaaerick/")
+          i(class="fa fa-instagram fa-2x" aria-hidden="true" target="_blank")
+        a(class="" href="https://www.linkedin.com/in/maia-erickson-21867899/")
+          i(class="fa fa-linkedin fa-2x" aria-hidden="true" target="_blank")       
+      div(class="col s4")
+        p(class="left-align") &copy; #{moment().format('YYYY')} Maia Erickson
 script(src="scripts/customscript.js")
   
