@@ -17,7 +17,7 @@ block content
         section(class="grid-wrap")
           ul(class="grid center")
             li(class="grid-sizer")
-            li(v-for="item in arrayz")
+            li(v-for="(item, index) in arrayz" v-if="index < 4")
               figure
                 img(:src="item.imageSrc")
                 figcaption
