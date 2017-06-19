@@ -1,5 +1,6 @@
 var express = require("express"),
     app     = express();
+    app.locals.moment = require("moment");
 
 //APP CONFIG
 app.set('port', (process.env.PORT || 5000));
