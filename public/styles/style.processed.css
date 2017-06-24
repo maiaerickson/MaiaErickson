@@ -150,6 +150,7 @@ hr {
 i {
   margin-left: 10px;
   transition: .12s;
+  font-size: 19px !important;
 }
 
 i:hover {
