@@ -131,6 +131,9 @@ div.blogPageImage h1 {
   position: relative;
   margin-top: 5%;
 }
+.imgGallery a {
+  margin-right: 7%;
+}
 
 button.btn-flat a:hover {
   background-color: transparent;
