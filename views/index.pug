@@ -10,7 +10,7 @@ block content
     div(class="homePageImg")
       h3(class="homePageName") maia erickson
     div(class="imgGallery", id="vueImgGallery")
-      h1(class="center", style="font-weight: 300;") my recent work
+      //- h1(class="center", style="font-weight: 300;") my recent work
       button(class="btn-flat waves-effect seeMore right")
         a(class="btn-flat" href="/gallery") see more ->
       div(id="grid-gallery" class="grid-gallery" style="clear: both;")
@@ -20,9 +20,9 @@ block content
             li(v-for="(item, index) in arrayz" v-if="index < 4")
               figure
                 img(:src="item.imageSrc")
-                figcaption
-                  h3 {{ item.titleWords }}
-                  p {{ item.captionWords }}
+                //- figcaption
+                //-   h3 {{ item.titleWords }}
+                //-   p {{ item.captionWords }}
         section(class="slideshow")
           ul
             li(v-for="item in arrayz")
