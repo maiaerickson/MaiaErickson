@@ -155,7 +155,7 @@ button.btn-flat a:hover {
 
 .site-footer {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #sidenav-overlay {
@@ -185,7 +185,7 @@ i:hover {
 }
 
 a {
-  color: rgba(0,0,0,0.9);
+  color: rgba(0,0,0,0.6);
 }
 
 .media-icons {
@@ -210,7 +210,20 @@ a {
 
 .aboutPannel {
   width: 40vw;
+  font-size: 67%;
   margin: auto;
+  background-color: #FAF2E2;
+  border-radius: 3px;
+}
+
+.aboutPannel img {
+  width: 100%;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.aboutBlurb {
+  padding: 30px;
 }
 
 i.fa {
