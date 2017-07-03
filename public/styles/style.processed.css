@@ -34,10 +34,15 @@ body {
   position: fixed !important;
 }
 
+i.fa.fa-bars {
+  font-size: 2em;
+}
+
 .logo {
   font-weight: bold;
   color: black;
 }
+
 img.logoImg {
   height: 130px;
   width: auto;
