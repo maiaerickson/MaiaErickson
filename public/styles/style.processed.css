@@ -176,6 +176,7 @@ hr {
 i {
   margin-left: 10px;
   transition: .12s;
+
 }
 
 i:hover {
@@ -184,9 +185,33 @@ i:hover {
 }
 
 a {
-  color: black;
+  color: rgba(0,0,0,0.9);
 }
 
 .media-icons {
   margin: auto;
+}
+
+/*Flexbox */
+.flexcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.aboutPannel-wrapper {
+  margin-top: 10%;
+}
+
+.aboutPannel {
+  width: 40vw;
+  margin: auto;
+}
+
+i.fa {
 }
